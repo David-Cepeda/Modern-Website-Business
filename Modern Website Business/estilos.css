@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #f7f6f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    height: 20vh;
+}
+
+.logo{
+    width: 20%;
+    height: 100px;
+}
+
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+    color: #264653;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-bar{
+    width: 50%;
+    height: 100px;
+}
+
+.menu-bar ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.menu-bar li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1d3557;
+}
+
+.login{
+    width: 25%;
+    height: 100px;
+    margin: 0 0;
+    line-height: 100px;
+    padding-left: 100px;
+}
+
+.login .sign-in{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 5px 20px;
+    color: #264653;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+
+.login .sign-up{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #264653;
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    height: 80vh;
+}
+
+.left{
+    width: 50%;
+    padding-left: 100px;
+}
+
+.left h1{
+    font-size: 3.8rem;
+    color: #1d3557;
+}
+
+.left p{
+    margin: 0px 5px;
+    font-size: 18px;
+    font-weight: 200;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.newsletter{
+    margin-top: 80px;
+}
+
+form{
+    overflow: hidden;
+}
+input{
+    float: left;
+    padding:11px 11px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    outline: 0;
+}
+
+[type = email]{
+    margin-bottom: 15px;
+    border:1px solid #575988;
+}
+
+[type = submit]{
+    background-color: #575988;
+    color: white;
+    border:1px solid #575988;
+}
+
+.news{
+    font-size: 18px !important;
+    color: black !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right{
+    width: 50%;
+    margin-left: 40px;
+    position: relative;
+}
+
+.right img{
+    width: 400px;
+    margin-left:75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+}
+
+.right .line{
+    position: absolute;
+    width: 2px;
+    height: 85px;
+    background-color: #264653;
+    right: 7px;
+    top: 180px;
+}
+
+.text{
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    right: 0px;
+    top: 100px;
+    cursor: pointer;
+}
+.text a{
+    text-decoration: none;
+    color: #1d3557;
+    font-weight: bold;
+}
